@@ -1,0 +1,39 @@
+export type FrameEventFactory = Array<{
+	id: number;
+	idCN: string;
+	mod: string;
+	buffId?: number;
+	targetType?: string;
+	isInformalData?: boolean;
+	hitSoundID?: number;
+	bulletId?: number;
+	offSetX_SN?: number;
+	offSetZ_SN?: number;
+	isUseTargetFilter?: boolean;
+	targetFilterType?: string;
+	targetTagList?: Array<{
+		tagId: number;
+	}>;
+	tagType?: string;
+	halfWidth_SN?: number;
+	attributeType?: string;
+	condition?: string;
+	numberType?: string;
+	number_SN?: number;
+	buffTypeFO?: number;
+	buffFO?: number;
+	buffJudgeType?: string;
+	buffLevel?: number;
+	filterStance?: string;
+	filterPosition?: string;
+	isAimSelf?: boolean;
+	targetCount?: number;
+	moviePath?: string;
+	pauseStartFrame?: number;
+	pauseFrame?: number;
+	fadeInFrame?: number;
+	duration?: number;
+	fadeOutFrame?: number;
+	layerType?: string;
+	yOffset?: number;
+}>

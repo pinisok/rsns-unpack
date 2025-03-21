@@ -1,0 +1,73 @@
+export type GuildanceOrderFactory = Array<{
+	id: number;
+	idCN: string;
+	mod: string;
+	isInformalData?: boolean;
+	position_x?: number;
+	position_y?: number;
+	height_half?: number;
+	width_half?: number;
+	customSortingOrder?: number;
+	isCircle?: boolean;
+	nodeName?: string;
+	panelName?: string;
+	tipsIndex?: number;
+	orderList?: Array<{
+		orderID: number;
+	}>;
+	cardIndex?: number;
+	paragraphID?: number;
+	isUseLeader?: boolean;
+	targetId?: number;
+	cost_SN?: number;
+	soundId?: number;
+	list?: Array<{
+		audioMixerPath?: string;
+		duration?: number;
+		param?: string;
+		value?: number;
+		path?: string;
+	}>;
+	isWaitEnd?: boolean;
+	delayFrame?: number;
+	isBan?: boolean;
+	isActivePauseBtn?: boolean;
+	isActiveDeckBtn?: boolean;
+	isActiveDiscardBtn?: boolean;
+	isActiveWeatherBtn?: boolean;
+	isActiveEnvironmentBtn?: boolean;
+	fingerIndex?: number;
+	isActiveSelf?: boolean;
+	endX?: number;
+	endY?: number;
+	isActive?: boolean;
+	isLoop?: boolean;
+	posX?: number;
+	posY?: number;
+	parentName?: string;
+	name?: string;
+	cardList?: Array<{
+		card: number;
+	}>;
+	guildanceID?: number;
+	text?: string;
+	isDoTween?: boolean;
+	speed?: number;
+	isWait?: boolean;
+	duration?: number;
+	setAnimationName?: string;
+	team?: string;
+	targetTagList?: Array<{
+		tagId: number;
+	}>;
+	buff?: number;
+	handIndex?: number;
+	scaleX?: number;
+	scaleY?: number;
+	offsetX?: number;
+	offsetY?: number;
+	isHideAll?: boolean;
+	side?: string;
+	unitId?: number;
+	actionId?: number;
+}>

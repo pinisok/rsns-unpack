@@ -1,0 +1,75 @@
+export type ItemFactory = Array<{
+	id: number;
+	idCN: string;
+	mod: string;
+	isInformalData: boolean;
+	name: string;
+	viewId: number;
+	quality: string;
+	des: string;
+	iconPath: string;
+	tipsPath: string;
+	buyPath: string;
+	textIcon: string;
+	sort: number;
+	isNotDisplayInBag: boolean;
+	isShowNum: boolean;
+	useLimitNum?: number;
+	endTime: string;
+	saletype: string;
+	rewardList: any[];
+	Getway: Array<{
+		DisplayName: string;
+		FromLevel: number;
+		UIName: string;
+		Way3: string;
+		funcId?: number;
+	}>;
+	useType?: string;
+	numRequired?: number;
+	isBatch?: boolean;
+	exchangeList?: Array<{
+		itemId: number;
+		num: number;
+		weight: number;
+	}>;
+	batchUsetype?: string;
+	isTiredItem?: boolean;
+	containEquipment?: boolean;
+	isCompose?: boolean;
+	isDrinkItem?: boolean;
+	drinkNum?: number;
+	isBattlePassItem?: boolean;
+	BattlePassType?: string;
+	breakPath?: string;
+	uiPath?: string;
+	limitedTime?: number;
+	gettipstype?: string;
+	isMonth?: boolean;
+	monthTime?: number;
+	monthList?: Array<{
+		id: number;
+		num: number;
+	}>;
+	imagePath?: string;
+	battlePassGrade?: number;
+	videoId?: number;
+	soundId?: number;
+	pictureId?: number;
+	profilePhotoID?: number;
+	homeBuffId?: number;
+	correspondingCity?: number;
+	briefText?: string;
+	Experiencevalue?: number;
+	EntryItemList?: Array<{
+		Entry: number;
+		Weight: number;
+	}>;
+	campType?: number;
+	EquipItemType?: number;
+	numMax?: boolean;
+	drawing?: number;
+	dataDrop?: number;
+	useAutomatically?: boolean;
+	correspondingActivity?: number;
+}>

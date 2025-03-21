@@ -1,0 +1,36 @@
+export type TrainWeaponSkillFactory = Array<{
+	id: number;
+	idCN: string;
+	mod: string;
+	isInformalData: boolean;
+	name: string;
+	text: string;
+	entryTag: number;
+	randomConstant: number;
+	levelMax?: number;
+	aType?: string;
+	aDevelopment?: boolean;
+	aNumMin?: number;
+	aUpgradeRange?: number;
+	aNumMax?: number;
+	aCommonNum?: number;
+	aNumMinP?: number;
+	aUpgradeRangeP?: number;
+	aNumMaxP?: number;
+	aCommonNumP?: number;
+	bType?: string;
+	bDevelopment?: boolean;
+	bNumMin?: number;
+	bUpgradeRange?: number;
+	bNumMax?: number;
+	bCommonNum?: number;
+	bNumMinP?: number;
+	bUpgradeRangeP?: number;
+	bNumMaxP?: number;
+	bCommonNumP?: number;
+	buffType?: string;
+	skillBuff?: number;
+	Constant?: number;
+	CommonNum?: number;
+	numText?: number;
+}>

@@ -1,0 +1,39 @@
+export type CollectionCardPackFactory = Array<{
+	id: number;
+	idCN: string;
+	mod: string;
+	isInformalData: boolean;
+	seriesName: string;
+	topCard: number;
+	otherCardList: Array<{
+		id: number;
+	}>;
+	clue: string;
+	name: string;
+	itemDes: string;
+	itemIconPath: string;
+	itemTipsPath: string;
+	backPic: string;
+	isShowNum: boolean;
+	cover: string;
+	cardPack: string;
+	topCardBack: string;
+	cardBack: string;
+	series: string;
+	rectangle: string;
+	rightPage: string;
+	middlePage: string;
+	leftPage: string;
+	tipsBg: string;
+	pageDeco: string;
+	decoX: number;
+	decoY: number;
+	banner: string;
+	effect: string;
+	topOne: string;
+	topTwo: string;
+	topThree: string;
+	topFour: string;
+	topFive: string;
+	topSix: string;
+}>
